@@ -94,7 +94,7 @@ namespace Firebase.Xamarin.Database.Streaming
 
                             if (string.IsNullOrWhiteSpace(line))
                             {
-                                await Task.Delay(2000).ConfigureAwait(false);
+                                await Task.Delay(10).ConfigureAwait(false);
                                 continue;
                             }
 

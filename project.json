@@ -12,8 +12,8 @@
         "Rx-PlatformServices": "2.2.5"
     },
   "frameworks": {
-    "netstandard1.4": {
-        "imports": [ "portable-net45+wpa81+wp8+win8" ]
+    "netstandard1.6": {
+        "imports": "portable-net45+wpa81+wp8+win8"
     }
   }
 }
